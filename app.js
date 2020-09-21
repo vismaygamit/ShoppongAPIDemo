@@ -12,7 +12,7 @@ const productRoutes=require("./api/routes/product");
 const orderRoutes=require("./api/routes/order");
 
 const app=express();
-mongoose.connect("mongodb+srv://vismay:T@nvi8758@cluster0.ikpvs.mongodb.net/shoppingdemo?retryWrites=true&w=majority",{useNewUrlParser:true})
+mongoose.connect("mongodb+srv://vismay:#password@cluster0.ikpvs.mongodb.net/#database?retryWrites=true&w=majority",{useNewUrlParser:true})
 .then(()=>{
 console.log("Connected to database");
 })
